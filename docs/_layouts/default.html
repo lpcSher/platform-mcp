@@ -11,15 +11,15 @@
     <a class="skip-link" href="#content">Skip to content</a>
     <header class="site-header">
       <div class="header-main">
-        <a class="brand" href="{{ '/index.html' | relative_url }}" aria-label="Sherweb Cumulus MCP documentation home">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Sherweb Cumulus MCP documentation home">
           <img class="brand-logo" src="{{ '/assets/images/logo.png' | relative_url }}" alt="">
           <span class="brand-product">Cumulus MCP</span>
         </a>
       </div>
       <nav class="primary-nav" aria-label="Primary navigation">
-        <span class="version">v1.0</span>
-        <a href="{{ '/index.html' | relative_url }}"{% if page.url == '/index.html' %} aria-current="page"{% endif %}>Guides</a>
-        <a href="{{ '/getstarted.html' | relative_url }}"{% if page.url == '/getstarted.html' %} aria-current="page"{% endif %}>Get Started</a>
+        <span class="version">v{{ site.mcp_version | escape }}</span>
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Overview</a>
+        <a href="{{ '/getstarted.html' | relative_url }}"{% if page.url == '/getstarted.html' %} aria-current="page"{% endif %}>Get started</a>
         <a href="{{ '/troubleshoot.html' | relative_url }}"{% if page.url == '/troubleshoot.html' %} aria-current="page"{% endif %}>Troubleshoot</a>
       </nav>
     </header>
@@ -29,8 +29,8 @@
         <p class="sidebar-label">Documentation</p>
         <p class="sidebar-group">Cumulus MCP Server</p>
         <nav class="sidebar-nav" aria-label="Documentation pages">
-          <a href="{{ '/index.html' | relative_url }}"{% if page.url == '/index.html' %} aria-current="page"{% endif %}>Overview</a>
-          <a href="{{ '/getstarted.html' | relative_url }}"{% if page.url == '/getstarted.html' %} aria-current="page"{% endif %}>Get Started</a>
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Overview</a>
+          <a href="{{ '/getstarted.html' | relative_url }}"{% if page.url == '/getstarted.html' %} aria-current="page"{% endif %}>Get started</a>
           <a href="{{ '/troubleshoot.html' | relative_url }}"{% if page.url == '/troubleshoot.html' %} aria-current="page"{% endif %}>Troubleshoot</a>
         </nav>
       </aside>

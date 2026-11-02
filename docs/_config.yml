@@ -1,6 +1,7 @@
 title: Sherweb Cumulus MCP Server
 description: Connect AI assistants and automation tools to Cumulus through MCP.
 theme: jekyll-theme-cayman
+mcp_version: "1.52.10"
 defaults:
   - scope:
       path: ""

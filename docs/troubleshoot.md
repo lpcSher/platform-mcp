@@ -7,7 +7,7 @@ description: Diagnose common connection and usage issues with the Sherweb Cumulu
 
 Use these checks for common connection, authentication, and response issues.
 
-[Get started](getstarted.html) · [Back to the documentation home](index.html)
+[Get started](getstarted.html) · [Overview](/)
 
 ## Common issues
 

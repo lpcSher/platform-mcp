@@ -7,7 +7,7 @@ description: Set up an MCP host to connect to the Sherweb Cumulus MCP Server.
 
 Connect your MCP-compatible application to Cumulus at <https://mcp.sherweb.com>.
 
-[Back to the documentation home](index.html) · [Troubleshoot](troubleshoot.html)
+[Overview](/) · [Troubleshoot](troubleshoot.html)
 
 ## Before you begin
 
@@ -84,4 +84,4 @@ After sign-in, refresh or reconnect the host if needed. Start with a focused, re
 - Show recent audit history for a specific subscription.
 - Summarize subscriptions for a specific organization.
 
-Verify important results in Cumulus. For safe use and more examples, see the [documentation home](index.html). If something goes wrong, visit [Troubleshoot](troubleshoot.html).
+Verify important results in Cumulus. For an overview, return to [Overview](/). If something goes wrong, visit [Troubleshoot](troubleshoot.html).
